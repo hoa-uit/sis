@@ -1,0 +1,11 @@
+{
+    "name": "Searching by Image",
+    "version": 2,
+    "builds": [{
+        "src": "*py",
+        "use": "@vercel/python"
+    }],
+    "routes": [
+        { "src": "(.*)", "dest": "server.py" }
+    ]
+}

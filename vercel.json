@@ -3,9 +3,13 @@
     "version": 2,
     "builds": [{
         "src": "*py",
-        "use": "@vercel/python"
+        "use": "@liudonghua123/now-flask"
     }],
     "routes": [
         { "src": "(.*)", "dest": "server.py" }
     ]
+   
 }
+
+   
+  
